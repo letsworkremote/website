@@ -1,0 +1,35 @@
+main {
+  h1 {
+    svg {
+      margin-top: 1rem;
+      width: 80%;
+      margin-bottom: 2rem;
+      max-width: 400px;
+      margin-left: -1rem;
+    }
+    line-height: 75%;
+    small {
+      font-size: 60%;
+    }
+  }
+  .avatar {
+    width: 100%;
+    border-radius: 100%;
+  }
+}
+#team {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+#newsletter {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 15px;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+body {
+  background-image: url(https://farm1.staticflickr.com/776/32117653400_056ba72bf2_k_d.jpg);
+  background-size: cover;
+}
