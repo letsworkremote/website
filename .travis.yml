@@ -1,0 +1,16 @@
+language: node_js
+cache:
+  directories:
+  - node_modules
+node_js:
+- stable
+before_install:
+- pip install --user s3cmd
+script:
+- npm run lint
+- npm run semantic-release
+after_success:
+- make deploy
+branches:
+  except:
+  - "/^v\\d+\\.\\d+\\.\\d+$/"

@@ -1,0 +1,16 @@
+footer {
+  background-color: #332222;
+  color: #fff;
+  a {
+    color: $body-bg;
+    &:hover {
+      color: #fff;
+    }
+  }
+  .row {
+    padding: 2rem 0;
+  }
+  svg {
+    margin-left: -0.5rem;
+  }
+}
